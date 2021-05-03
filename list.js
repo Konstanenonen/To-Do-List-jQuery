@@ -12,6 +12,8 @@ $("#nappula1").click(function () {
   newElement.appendTo( "#lista" );
   //Muutetaan kentän kehys takaisin taustan väriseksi siltä varalta, että se on nyt punainen
   $( "#kentta" ).css("border-color", "grey");
+  //Clearing the field
+  $( "#kentta" ).val("");
   //Tallennetaan lista selaimen muistiin
   localStorage.setItem("muistilista", $( "#lista" ).html());
   //Lisätään laskuri, jotta keskeneräisten tehtävien määrä kasvaa yhdellä
