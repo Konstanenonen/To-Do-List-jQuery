@@ -1,0 +1,27 @@
+h1 {
+    font-size: 50px;
+    color:rgb(47, 123, 209);
+    margin: 5%;
+}
+
+ul li {
+  text-align: left;
+  background: #fff0f0;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+ul li.valmis {
+  background: #e9ffec;
+  color: #008040;
+  text-decoration: line-through;
+}
+
+#kentta {
+  border-color: grey;
+}
+
+#basic-addon1 {
+  border-color: grey;
+}
