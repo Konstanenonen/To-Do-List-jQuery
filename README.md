@@ -1,6 +1,6 @@
 # To-Do-List-jQuery
 
-Muistilista tehty jQuerya käyttäen.
+To-Do-List web app done with jQuery
 
 <br>
 
